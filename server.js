@@ -25,12 +25,12 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.get("/reservation", function (req, res) {
-  res.sendFile(path.join(__dirname, "reservation.html"));
+app.get("/reservations", function (req, res) {
+  res.sendFile(path.join(__dirname, "reservations.html"));
 });
 
-app.get("/waitlist", function (req, res) {
-  res.sendFile(path.join(__dirname, "waitlist.html"));
+app.get("/tables", function (req, res) {
+  res.sendFile(path.join(__dirname, "tables.html"));
 });
 
 // API routes
