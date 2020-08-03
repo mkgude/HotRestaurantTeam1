@@ -30,19 +30,20 @@
     ></script>
   </head>
   <body>
-    <!-- header - jumbotron -->
-    <!-- link to view tables -->
-    <!-- link to homepage -->
     <div class="container">
+      <!-- header - jumbotron -->
       <div class="jumbotron text-center">
         <h1 class="display-4">Hot Restaurant</h1>
-
         <hr class="my-4" />
         <p>
           Make your reservation
         </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">View Tables</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Home</a>
+        <!-- link to view tables -->
+        <a class="btn btn-primary btn-lg" href="/tables" role="button"
+          >View Tables</a
+        >
+        <!-- link to homepage -->
+        <a class="btn btn-primary btn-lg" href="/" role="button">Home</a>
       </div>
 
       <!-- form for reservations -->
@@ -110,8 +111,16 @@
       </div>
 
       <!-- footer  -->
-      <!-- link to table api  -->
-      <!-- link to waitlist api -->
+      <footer class="footer">
+        <div class="contain">
+          <p>
+            <!-- link to table api  -->
+            <a href="/api/tables">API Table Link</a> |
+            <!-- link to waitlist api -->
+            <a href="/api/waitlist">API Wait List</a>
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
